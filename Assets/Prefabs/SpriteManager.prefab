@@ -49,14 +49,35 @@ MonoBehaviour:
     sprites:
     - {fileID: 21300000, guid: e1955fecf3ea7254886c6251822bcbcf, type: 3}
     - {fileID: 21300000, guid: dc7aa59689c230a4594374a87bddfd00, type: 3}
+    animators: []
     currentSpriteIndex: 0
+    currentAnimatorIndex: 0
   - targetGameObjectTag: Sky
     sprites:
     - {fileID: 21300000, guid: bd5f9cf6d2962e54b8a9cf046790614c, type: 3}
     - {fileID: 21300000, guid: 024a99c20fcb09943984cf8da544fcec, type: 3}
+    animators: []
     currentSpriteIndex: 0
-  dropdownStates:
-  - dropdownTag: DropGround
-    selectedIndex: 0
-  - dropdownTag: DropSky
-    selectedIndex: 0
+    currentAnimatorIndex: 0
+  - targetGameObjectTag: Gem
+    sprites:
+    - {fileID: 21300000, guid: 97ec637c766df2942b46a23a08c153e4, type: 3}
+    - {fileID: 21300000, guid: a81e923ebab90314588e44fa58874678, type: 3}
+    animators: []
+    currentSpriteIndex: 0
+    currentAnimatorIndex: 0
+  - targetGameObjectTag: Player
+    sprites:
+    - {fileID: 21300000, guid: 1bea25b6cae3cf045b9c81ff47b37cae, type: 3}
+    - {fileID: 21300000, guid: 16eac9ece5ea93c4baefcfd75faaf38c, type: 3}
+    animators:
+    - {fileID: 9100000, guid: 28703307f6b3a1b42a074cc1ab5c2985, type: 2}
+    - {fileID: 9100000, guid: 53f9aa7eb60a1b14f8197e3f0892c64b, type: 2}
+    currentSpriteIndex: 0
+    currentAnimatorIndex: 0
+  - targetGameObjectTag: Bomb
+    sprites:
+    - {fileID: 21300000, guid: a943a7c71ac333449b557e8b8ee30a2b, type: 3}
+    animators: []
+    currentSpriteIndex: 0
+    currentAnimatorIndex: 0

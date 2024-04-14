@@ -12,6 +12,7 @@ TagManager:
   - DropSky
   - DropCharacter
   - DropGem
+  - Bomb
   layers:
   - Default
   - TransparentFX

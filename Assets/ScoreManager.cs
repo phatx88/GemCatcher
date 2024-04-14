@@ -8,8 +8,7 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI gameOverText;
     public GameObject gameOverPanel;
-    //public GameObject player;
-    //public GameObject gem;
+
 
 
     //B1: Tạo biến lưu giá tri điểm người chơi
@@ -31,9 +30,6 @@ public class ScoreManager : MonoBehaviour
         //B7: Cap nhat game over
         if (remainingTime == 0)
         {
-            //GameObject.FindWithTag("Player").GetComponent<CharacterMovement>().enabled = false;
-            //GameObject.FindWithTag("Gem").GetComponent<GemMover>().enabled = false;
-            //GameObject.FindWithTag("GemSpawner").GetComponent<GemFallScript>().enabled = false;
             GameOver();
         }
     }

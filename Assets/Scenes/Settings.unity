@@ -4223,90 +4223,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[0].targetGameObject
-      value: 
-      objectReference: {fileID: 2016516055}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[1].targetGameObject
-      value: 
-      objectReference: {fileID: 1525156929}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[1].currentSpriteIndex
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[2].sprites.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].sprites.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[4].sprites.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[0].targetGameObjectTag
-      value: Ground
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[1].targetGameObjectTag
-      value: Sky
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[2].targetGameObjectTag
-      value: Gem
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].targetGameObjectTag
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[4].targetGameObjectTag
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].animators.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[2].sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 97ec637c766df2942b46a23a08c153e4, type: 3}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[2].sprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: a81e923ebab90314588e44fa58874678, type: 3}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 1bea25b6cae3cf045b9c81ff47b37cae, type: 3}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].sprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 16eac9ece5ea93c4baefcfd75faaf38c, type: 3}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[4].sprites.Array.data[0]
-      value: 
-      objectReference: {fileID: 21300000, guid: 1bea25b6cae3cf045b9c81ff47b37cae, type: 3}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[4].sprites.Array.data[1]
-      value: 
-      objectReference: {fileID: 21300000, guid: 16eac9ece5ea93c4baefcfd75faaf38c, type: 3}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].animators.Array.data[0]
-      value: 
-      objectReference: {fileID: 9100000, guid: 28703307f6b3a1b42a074cc1ab5c2985, type: 2}
-    - target: {fileID: 4772159695957784922, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
-      propertyPath: spriteChanges.Array.data[3].animators.Array.data[1]
-      value: 
-      objectReference: {fileID: 9100000, guid: 53f9aa7eb60a1b14f8197e3f0892c64b, type: 2}
     - target: {fileID: 5100740751919590512, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
       propertyPath: m_Name
       value: SpriteManager
@@ -4357,11 +4273,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 229ac78a4c7e9d14c8e481bae2771815, type: 3}
---- !u!1 &1525156929 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5538510661550204188, guid: e8ef1fc79f738a9478f0b1483da44fa9, type: 3}
-  m_PrefabInstance: {fileID: 462762972}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1539039277
 GameObject:
   m_ObjectHideFlags: 0
@@ -5724,11 +5635,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009082484}
   m_CullTransparentMesh: 1
---- !u!1 &2016516055 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8309537063013370576, guid: 7dd3370dfed0bf2489df6e5ada3f2516, type: 3}
-  m_PrefabInstance: {fileID: 1136750590}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2022397322
 GameObject:
   m_ObjectHideFlags: 0
