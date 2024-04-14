@@ -28,7 +28,7 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "Score: " + score + " | Time: " + remainingTime;
 
         //B7: Cap nhat game over
-        if (remainingTime == 0)
+        if (remainingTime <= 0)
         {
             GameOver();
         }
@@ -38,6 +38,11 @@ public class ScoreManager : MonoBehaviour
     public static void AddScore(int amount)
     {
         score += amount;
+    }
+
+    public static void AddTime(float amount)
+    {
+        remainingTime += amount;
     }
 
     //B4: Tạo hàm timer count down

@@ -13,6 +13,9 @@ public class GemMoveToRight : MonoBehaviour
     //khoảng thời gian (tính bằng giây) giữa mỗi lần sinh viên gem mới
     public float spawnInterval = 3f;
 
+    //Đặt Tọa độ trái phải
+    public float positionX;
+
     // Update is called once per frame
     void Update()
     {
@@ -33,7 +36,7 @@ public class GemMoveToRight : MonoBehaviour
     {
         float randomY = Random.Range(-3f, 3f);
         //Trỏ tới vị trí cố định trên màn hình
-        Vector3 spawnPosition = new Vector3(-20f, randomY, 0);
+        Vector3 spawnPosition = new Vector3(positionX, randomY, 0);
 
         //Hàm Instantiate để tạo 1 bản sao của object prefab trên vị trí đã trỏ
         Instantiate(gemPrefap, spawnPosition, Quaternion.identity); //Instatiiate(object,vị trí, hướng quay)
