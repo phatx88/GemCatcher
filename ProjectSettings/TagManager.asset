@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Ground
   - Gem
+  - SpriteChangerTag
+  - Sky
+  - DropGround
+  - DropSky
+  - DropCharacter
+  - DropGem
   layers:
   - Default
   - TransparentFX

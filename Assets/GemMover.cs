@@ -16,8 +16,8 @@ public class GemMover : MonoBehaviour
     {
         AudioSource audioSource = other.GetComponent<AudioSource>();
 
-        Debug.Log("detect collision of gem and object");
-        Debug.Log("processing collision");
+        //Debug.Log("detect collision of gem and object");
+        //Debug.Log("processing collision");
         if (other.gameObject.CompareTag("Player"))
         {
             //Debug.Log("gem collided with character");
@@ -29,9 +29,9 @@ public class GemMover : MonoBehaviour
         }
         else if (other.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("gem collided with ground");
+            //Debug.Log("gem collided with ground");
             Destroy(gameObject);
-            Debug.Log("gem removed");
+            //Debug.Log("gem removed");
 
         }
     }
