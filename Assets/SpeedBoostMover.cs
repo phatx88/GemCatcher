@@ -8,7 +8,7 @@ public class SpeedBoostMover : MonoBehaviour
     public float boostDuration = 2f; // Duration of the speed boost
 
     private SpriteRenderer spriteRenderer;
-    private Collider2D collider2D;
+    private new Collider2D collider2D;
 
     void Awake()
     {
