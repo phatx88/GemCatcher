@@ -26,5 +26,13 @@ Expasion Features Checklist:
   - ![tile_0151](https://github.com/phatx88/GemCatcher/assets/66936482/83d001ca-3bed-425e-8e12-edb2ecc3d743) : Player va trạm sẽ được cộng thêm thời gian 3 giây (có thể tùy chỉnh)
   - ![tile_0092](https://github.com/phatx88/GemCatcher/assets/66936482/e003d5c7-84e5-4888-a535-c08632699558) : Player va trạm sẽ bị trừ thêm thời gian 3 giây (có thể tùy chỉnh)
 
-
 - Nền nhà có thể xuất hiện một số các vật cản làm nhân vật bị cản lại khi va chạm. Nhân vật có thể nhảy qua
+  - ![tile_0047](https://github.com/phatx88/GemCatcher/assets/66936482/31ba41ea-c9a1-4510-ad5f-6d58fd3b6042) : Vật phẩm sẽ cản Nhân vật khi va trạm, Nhân vật phải nhảy qua, có thể làm bàn đạp (ground) để reset double jump
+
+- Thêm Clamping Position (tọa độ tùy chỉnh) để nhân vật chỉ di chuyển trong phạm vi của Main Camera
+- Thêm Các Audio Source khi va trạm các loại vật phẩm khác nhau
+- Thêm Scene Settings để người dùng có thể xem thay đổi của Vật Phẩm Ground, Gem, Sky, Player trước khi apply vào game chính
+  
+ 
+
+
