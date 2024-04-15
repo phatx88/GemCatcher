@@ -1,3 +1,4 @@
+Video Demo : https://youtu.be/oRuUetA6m_M
 Expasion Features Checklist:
 - Nhân vật bây giờ có thể Nhảy để thu thập viên ngọc nhanh hơn
 - Thay đổi diện mạo trò chơi: đất, trời, nhân vật và cả viên ngọc
